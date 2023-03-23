@@ -1,0 +1,33 @@
+.img{
+    width: 100%;
+    height: 50%;
+    border-radius: 60px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(14,14,161,1) 61%, rgba(0,212,255,1) 100%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;     
+}
+.Section{
+        padding: 10px;
+        box-sizing: border-box;
+        background: rgb(131,58,180);
+        background: linear-gradient(65deg, rgba(131,58,180,1) 0%, rgba(29,253,232,1) 48%, rgba(252,176,69,1) 100%);
+        height: 80%;
+        border-radius: 16px;
+        justify-content: center;
+}
+button{
+
+}
+h3{
+    color: beige;
+    align-items: center;
+    justify-content: center;
+}
